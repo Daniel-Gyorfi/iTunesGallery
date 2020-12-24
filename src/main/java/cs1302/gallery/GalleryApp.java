@@ -80,12 +80,12 @@ public class GalleryApp extends Application {
         this.imageGather();
         picView.picShuffle();
         Scene scene = new Scene(pane);
-        stage.setMaxWidth(500);
-        stage.setMaxHeight(490);
+//        stage.setMaxWidth(500);
+//        stage.setMaxHeight(490);
         stage.setTitle("GalleryApp!");
         stage.setScene(scene);
-        stage.setWidth(500);
-        stage.setHeight(490);
+        stage.setWidth(515);
+        stage.setHeight(520);
         stage.setResizable(false);
         stage.show();
     } // start
